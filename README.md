@@ -3,8 +3,7 @@
 
 ## 🚀 Live Demo
 
-[Click here to view the live project](https://your-username.github.io/dropdown-navbar/)  
-*(Replace with your GitHub Pages link once deployed)*
+(https://github.com/Sambhav1401/UltraEdit)
 
 ---
 
