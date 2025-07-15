@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download UltraEdit text editor for Windows</title>
+ <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png" alt="">
+   <div class="list">
+  <ul>
+    <li class="dropdown">
+      <span onclick="toggleDropdown('productMenu')">Product ▼</span>
+      <div class="dropdown-menu" id="productMenu">
+        <a href="#">Laptop</a>
+        <a href="#">Computers</a>
+        <a href="#">Mobile Phones</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span onclick="toggleDropdown('pricingMenu')">Pricing ▼</span>
+      <div class="dropdown-menu" id="pricingMenu">
+        <a href="#">Annual = $60</a>
+        <a href="#">Monthly = $10</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span onclick="toggleDropdown('resourcesMenu')">Resources ▼</span>
+      <div class="dropdown-menu" id="resourcesMenu">
+        <a href="#">GitHub</a>
+      </div>
+    </li>
+
+    <li class="dropdown">
+      <span onclick="toggleDropdown('aboutMenu')">About Us ▼</span>
+      <div class="dropdown-menu" id="aboutMenu">
+        <a href="#">Email</a>
+        <a href="#">Phone</a>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>
+    </header>
+   <div class="body">
+   <h1 id="heading">Download Ultraedit for Windows <img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></h1>
+   <p id="sam">Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</p>
+  <button id="buttond">DOWNLOAD MAC OR LINUX VERSION</button>
+</div>
+<div class="guard">
+    <img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/052011/ue.png?itok=Onka9NhI" alt="">
+<p class="first">Download UltraEdit  
+</p>
+<p class="second"> v2025.0 (released 2025-06-06) | Hotfix information</p></div>
+</span>
+<div class="grid">
+    <div class="item1"><h1>English</h1>
+        <div>English</div> 
+        <button>Download 64-bit</button></div>
+    <div class="item2"><h1>Deutsch</h1>
+        <div>German</div> 
+        <button>Download 64-bit</button></div>
+    <div class="item3"><h1>Italiano</h1>
+        <div>Italian</div>
+        <button>Download 64-bit</button> </div>
+    <div class="item4"><h1>Español</h1>
+        <div>Spanish</div>
+        <button>Download 64-bit</button> </div>
+    <div class="item5"><h1>français</h1>
+        <div>France</div> 
+        <button>Download 64-bit</button> </div>
+    <div class="item6"><h1>Português</h1>
+        <div>Brazilian Portuguese</div>
+        <button>Download 64-bit</button> </div>
+    <div class="item7"><h1>华语</h1>
+        <div>Chinese </div>
+        <button>Download 64-bit</button></div>
+    <div class="item8"><h1>한국어</h1>
+        <div>Korean</div>
+        <button>Download 64-bit</button> </div>
+    <div class="item9"><h1>日本</h1>
+        <div>Japanese</div>
+        <button>Download 64-bit</button> </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+<script>
+  function toggleDropdown(id) {
+    document.querySelectorAll('.dropdown-menu').forEach(menu => {
+      if (menu.id !== id) menu.classList.remove('show');
+    });
+    document.getElementById(id).classList.toggle('show');
+  }
+
+  // Close dropdown if clicked outside
+  window.addEventListener('click', function(e) {
+    if (!e.target.closest('.dropdown')) {
+      document.querySelectorAll('.dropdown-menu').forEach(menu => {
+        menu.classList.remove('show');
+      });
+    }
+  });
+</script>
+
+
+
+</body>
+</html>
